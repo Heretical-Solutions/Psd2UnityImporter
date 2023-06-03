@@ -217,7 +217,7 @@ namespace SubjectNerd.PsdImporter
 				fontStyle = FontStyle.Bold
 			};
 
-			tempStyle = GUI.skin.FindStyle("VisibilityToggle");
+			tempStyle = GUI.skin.FindStyle("Toggle");
 
 			styleVisOff = new GUIStyle(tempStyle)
 			{
